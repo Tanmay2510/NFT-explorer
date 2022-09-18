@@ -1,0 +1,37 @@
+import React, { useEffect, useState } from 'react'
+import { Card, Row, Col, Container } from "react-bootstrap";
+
+function NftCard() {
+    //https://nba-players.herokuapp.com/players-stats
+
+    const [playerData, setPlayerData] = useState([]);
+    useEffect(() => {
+        
+     fetch('https://nba-players.herokuapp.com/players-stats').then((result)=>{
+        result.json().then((resp)=>{
+            setPlayerData(resp.slice(0,15));
+        })
+     })
+        
+        
+    }, [])
+    return (
+        <Container>
+            <Row>
+                {playerData.map((playerData, k) => (
+                    <Col key={k} xs={12} md={4} lg={3}>
+                        <Card style={{margin:"10px"}}>
+                            <Card.Img src="https://via.placeholder.com/150x75" />
+
+                            <Card.Body>
+                                <Card.Title>{playerData.name}</Card.Title>
+                                <Card.Text>{playerData.team_name}</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                ))}
+            </Row>
+        </Container>
+    )
+}
+export default NftCard;
