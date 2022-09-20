@@ -1,9 +1,9 @@
 import './App.css';
-import NftCard from "./Components/Democards/nftcard";
+import Explore from "./pages/explore";
 function App() {
   return (
     <div className="App">
-      <NftCard />
+       <Explore />
     </div>
   );
 }
