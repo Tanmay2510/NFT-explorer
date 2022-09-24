@@ -1,5 +1,5 @@
 // Go to www.alchemy.com and create an account to grab your own api key!
-const apiKey = "e8iWos0wl2CMoOpiEnyuZ9cP6Xx_BMH2";
+const apiKey = process.env.REACT_APP_API_KEY;
 const endpoint = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}`;
 
 export const fetchNFTs = async (owner, contractAddress, setNFTs, retryAttempt) => {

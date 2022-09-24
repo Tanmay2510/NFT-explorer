@@ -10,7 +10,7 @@ const Explore = () => {
     const [contractAddress, setContractAddress] = useState("")
     const [NFTs, setNFTs] = useState("")
     
-
+    // 0xF5FFF32CF83A1A614e15F25Ce55B0c0A6b5F8F2c
     return (
         <div>
             <header className=' py-24  mb-12 w-full   alchemy'>

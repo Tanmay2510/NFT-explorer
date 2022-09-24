@@ -1,0 +1,59 @@
+Nft mp:
+Nft is briefly owning an item on the blockchain it empowers you to put on 
+audio, video , images on the blockchain and own them.
+cuz they're rare kinda like owning monalisa in real world
+
+As these nfts became more common and there started to be a lot of use cases 
+for these nfts that's where people felt the need to connect the buyers and 
+sellers of these nfts before that it was mostly over the ctr and then 
+people were finding out the owners of those nfts and buying it but then 
+there arose a need because there was a huge volumes that buyers and sellers
+come together on a platform and exchange nfts which each other.
+Make it super easy for buyers and sellers to connect find the right price at 
+which they can transact and then proceed with the transaction execute it makes
+it super simple.
+A market that connects the buyers or sellers of an nft this mpl helps people 
+find a price and then provides utilities for smooth transaction ulti this mpl
+helps grow the pie for the entire nft market 
+
+STRUCTURE OF NFT:
+1 frontend
+
+2 smart contract  -> the layer that interacts with the blockchain any nft which
+is uploaded will be uploaded with the blockchain with the help of f(x) that are 
+written in the smart contract. Piece of code which is crucial for the app that 
+are interacting with our blockchain.
+
+3 decenralized data storage -> ipfs - nfts datastore where we'll be uploading 
+the nft metadata basically data bout our nfts incld the image,name , the desc  
+and all other details 
+
+WHAT DO YOU NEED TO DEVELOP AN NFT MARKETPLACE:
+- SOLIDITY  a smart contract backend i.e written which interacts with a blockchain is in solidity
+blockchain: gurley testnet - testnet is on ethereum 
+
+- A NODE - ALCHEMY  it is a node service provider like ALCHEMY so everytime you go ahead and deploy 
+your smart contract to interact we'll int with the blockchain or we're going to upload an nft in which 
+like you upl an nft an image right down the details you submit a price and then you hit sumbit when you do that
+again you're interacting with the blockchain whenever you're int with the blockchain we need a node service provider 
+
+
+- IPFS  - is decenralized storage we'll specifically be using the service called pinata 
+it is a very easy to use ipfs frontfacing platform where we have a really nice interface 
+to interact with ipfs.
+IMP : cuz if you wanted to DEVELOP an nft MARKETPLACE you have all of the data that needs to 
+be stored (images metadata bout images) rather than putting it onto ethereum use ipfs
+it returns you a url (ipfs) which maps to all of your metadata.
+Now that ipfs url is all we save on the blockchain having all the data elsewhere 
+also keeping a mapping of data with a smart contract on the blockchain 
+
+- A DEVELOPER WALLET LIKE METAMASK WITH CRYPTO ON IT  - i METAMASK and we'll also need to load it with testnet(gurley) eth 
+to be able to run our transaction to be able to run our smart contract 
+
+- A frontend WEBSITE - SOL which is a smart contract, node service which is ALCHEMY, using ipfs to actually store all of the data
+for nfts, using METAMASK to actually you know pay for everything that you do on the blockchain to supp all of this you need a WEBSITE
+You can go log in w/ your wallet actually go out upload an nft view those nfts 
+on the MARKETPLACE and buy somebody else's nft.
+
+TILL INT
+
